@@ -1,5 +1,5 @@
 [![Discord](https://img.shields.io/badge/Discord-121212?style=social&logo=discord)](https://discord.com/users/653082608871276584)
-[![Steam](https://img.shields.io/badge/steam-121212?style=social&logo=steam)](https://steamcommunity.com/id/yurei_dll)
+[![Steam](https://img.shields.io/badge/Steam-121212?style=social&logo=steam)](https://steamcommunity.com/id/yurei_dll)
 
 <div align="center">
     <!-- I kinda hacked MD here lol -->
