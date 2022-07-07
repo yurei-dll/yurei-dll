@@ -45,7 +45,7 @@ I'm Yūrei, and I'm exploring the world of programming and ethical hacking as a 
 </div>
 </td></tr></table>  
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yurei-dll&hide_title=true&show_icons=true&theme=dark&border_color=2f363e&icon_color=675df4)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yurei-dll&hide_title=true&show_icons=true&theme=dark&border_color=2f363e&icon_color=675df4&bg_color=0d1017)](https://github.com/anuraghazra/github-readme-stats)
 
 
 </div>
