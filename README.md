@@ -6,13 +6,7 @@
     <div>
 </div>
 
-### **_Hello there!_**
-
-I'm Yūrei, and I'm exploring the world of programming and ethical hacking as a student.
-
 <br/>
-
----
 
 
 <!-- It looked better in the VS Code preview... -->
