@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
 
-Using front-end languages for back-end programming
+Using front-end languages for back-end tasks :>
 
 ![Android](https://img.shields.io/badge/Android-05150C?style=flat-square&logo=android)
 ![Manjaro](https://img.shields.io/badge/Manjaro-121212?style=flat-square&logo=manjaro)
