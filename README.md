@@ -1,6 +1,5 @@
 <br/>
 <div align="center">
-<img src="https://raw.githubusercontent.com/yurei-dll/yurei-dll/main/ohReally.png" alt="Stupid image" width="100"/>
 
 Using front-end languages for back-end programming
 
