@@ -1,0 +1,144 @@
+:root {
+    background: linear-gradient(-45deg, #ff0000, #dd2020, #1d36c2, #002fff);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    color: #e5e5ec;
+    font-family: ubuntu-mono, monospace;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 85%;
+    }
+
+    50% {
+        background-position: 85% 0%;
+    }
+
+    100% {
+        background-position: 0% 85%;
+    }
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    left: 5%;
+}
+
+a {
+    color: #276dbd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.filter {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1) 55%);
+    background-position: 0 0, 50px 50px;
+    background-size: 3.5px 3.5px;
+    box-shadow: inset 0 0 100px black;
+}
+
+.content {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    filter: drop-shadow(2px 4px 6px black)
+}
+
+.footer {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: 0;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #000000;
+    border: #383838 solid 1px;
+    color: #383838;
+    /* max-width: 100vh; */
+}
+
+.footer p {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: small;
+}
+
+.footer a {
+    color: #273b61
+}
+
+.card-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* A little horizontal card with a logo and link inside it */
+.card {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    max-width: 40vh;
+    color: #383838;
+    background-color: #e5e5ec;
+    border-radius: 10px;
+    transition: all 0.5s;
+    padding: 1vh
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card svg,
+img {
+    /* Make padding fill space */
+    height: 100%;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 35px;
+}
+
+.card p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.overlay {
+    /* Must obstruct everything else until the animation is done */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 10px;
+    transition: all 5s;
+}
