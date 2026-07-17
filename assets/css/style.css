@@ -48,7 +48,7 @@ a:hover {
     position: fixed;
     background-image: radial-gradient(circle, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1) 55%);
     background-position: 0 0, 50px 50px;
-    background-size: 3.5px 3.5px;
+    background-size: 1px 3px;
     box-shadow: inset 0 0 100px black;
 }
 
