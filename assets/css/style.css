@@ -111,6 +111,16 @@ a:hover {
 
 .card:hover {
     transform: scale(1.03);
+    text-decoration: none;
+}
+
+.card:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 4px;
+}
+
+.card-link-label {
+    color: #276dbd;
 }
 
 .card svg,
