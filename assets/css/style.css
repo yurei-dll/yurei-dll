@@ -119,12 +119,26 @@ a:hover {
     outline-offset: 4px;
 }
 
+.image-card {
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+    background: transparent;
+}
+
+.card.image-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-width: 0;
+}
+
 .card-link-label {
     color: #276dbd;
 }
 
 .card svg,
-img {
+.card img {
     /* Make padding fill space */
     height: 100%;
     width: 30%;
