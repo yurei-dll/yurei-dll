@@ -15,4 +15,15 @@
 [![yurei.dll's Discord status](https://dsc-readme.tsuni.dev/api/user/653082608871276584?pronouns=she%2Fher&theme=nitroDark&primaryColor=8180ff&accentColor=fe80c0&width=512&font=8bit&effect=gradient&nameColor1=a78bfa&nameColor2=ec4899&layout=compact)](https://github.com/the-snesler/discord-github-preview)
 
 Most of my projects start from a "what if" or _a minor inconvenience_.
-</div>
+
+<!-- Replace the image URLs and alt text below. -->
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.shion.dev/api?username=yurei-dll&theme=radical&hide_border=false&include_all_commits=false&count_private=false"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.shion.dev/api?username=codecat-yurei&theme=radical&hide_border=false&include_all_commits=false&count_private=false"/>
+    </td>
+  </tr>
+</table>
