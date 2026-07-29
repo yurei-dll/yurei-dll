@@ -16,14 +16,19 @@
 
 Most of my projects start from a "what if" or _a minor inconvenience_.
 
-<!-- Replace the image URLs and alt text below. -->
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=yurei-dll&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.shion.dev/api?username=yurei-dll&theme=radical&hide_border=false&include_all_commits=false&count_private=false"/>
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img src="https://github-readme-stats.shion.dev/api?username=yurei-dll&theme=radical&hide_border=false&include_all_commits=false&count_private=false" alt="yurei-dll's GitHub stats"/>
+      </a>
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.shion.dev/api?username=codecat-yurei&theme=radical&hide_border=false&include_all_commits=false&count_private=false"/>
+      <a href="https://github.com/codecat-yurei">
+        <img src="https://github-readme-stats.shion.dev/api?username=codecat-yurei&theme=radical&hide_border=false&include_all_commits=false&count_private=false" alt="codecat-yurei's GitHub stats"/>
+      </a>
     </td>
   </tr>
 </table>
