@@ -146,6 +146,20 @@ a:hover {
     min-width: 35px;
 }
 
+.codecat-card {
+    position: relative;
+}
+
+.codecat-card .bot-badge {
+    position: absolute;
+    right: 1vh;
+    bottom: 1vh;
+    width: 1.6rem;
+    height: 1.6rem;
+    min-width: 0;
+    fill: currentColor;
+}
+
 .card p {
     display: flex;
     flex-direction: column;
