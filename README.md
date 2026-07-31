@@ -16,8 +16,6 @@
 
 Most of my projects start from a "what if" or _a minor inconvenience_.
 
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=yurei-dll&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
 <table width="100%">
   <tr>
     <td width="50%" align="center">
