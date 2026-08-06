@@ -25,6 +25,8 @@ jobs:
 
       - name: Commit updated sitemap
         run: |
+          git add sitemap.xml
+          
           if git diff --quiet sitemap.xml; then
             echo "Sitemap is already current."
             exit 0
