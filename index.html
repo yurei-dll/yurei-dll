@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="DFlcz2TxTmBRtMtN7CxoSZ5YJMGbXYb7KiqA3oJDsi8" />
   <title>Yūrei? Yūrei!</title>
+  <script>document.documentElement.classList.add('js');</script>
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css">
@@ -13,51 +14,122 @@
 </head>
 
 <body>
+  <svg class="svg-symbols" aria-hidden="true">
+    <defs>
+      <!-- GitHub icon provided by simpleicons.org -->
+      <symbol id="github-icon" viewBox="0 0 24 24">
+        <path
+          d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+      </symbol>
+      <symbol id="bot-icon" viewBox="0 0 24 24">
+        <path
+          d="M12 2a1 1 0 0 1 1 1v1h2a4 4 0 0 1 4 4v1h1a1 1 0 1 1 0 2h-1v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4v-5H4a1 1 0 1 1 0-2h1V8a4 4 0 0 1 4-4h2V3a1 1 0 0 1 1-1Zm-3 4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H9Zm1 4a1.25 1.25 0 1 1 0 2.5A1.25 1.25 0 0 1 10 10Zm4 0a1.25 1.25 0 1 1 0 2.5A1.25 1.25 0 0 1 14 10Zm-4 5h4a1 1 0 1 1 0 2h-4a1 1 0 1 1 0-2Z" />
+      </symbol>
+      <symbol id="human-icon" viewBox="0 0 24 24">
+        <path
+          d="M12 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 12c5.52 0 10 3.13 10 7a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1c0-3.87 4.48-7 10-7Z" />
+      </symbol>
+      <symbol id="organization-icon" viewBox="0 0 24 24">
+        <path
+          d="M4 2h12a2 2 0 0 1 2 2v5h2a2 2 0 0 1 2 2v11h-8v-5h-4v5H2V4a2 2 0 0 1 2-2Zm1 4v2h3V6H5Zm5 0v2h3V6h-3Zm-5 5v2h3v-2H5Zm5 0v2h3v-2h-3Zm7 1v2h2v-2h-2Zm0 4v2h2v-2h-2Z" />
+      </symbol>
+    </defs>
+  </svg>
   <div class="filter"></div>
   <div class="overlay"></div>
+  <nav class="tabs" aria-label="Page sections">
+    <button class="tab is-active" id="tab-me" type="button" role="tab" aria-selected="true" aria-controls="panel-me"
+      tabindex="0">Me</button>
+    <button class="tab" id="tab-agents" type="button" role="tab" aria-selected="false" aria-controls="panel-agents"
+      tabindex="-1">Agents</button>
+    <button class="tab" id="tab-projects" type="button" role="tab" aria-selected="false" aria-controls="panel-projects"
+      tabindex="-1">Projects</button>
+  </nav>
   <div class="content">
     <h1>Hello world_</h1>
-    <div class="card-area">
-      <a class="card image-card" href="https://github.com/the-snesler/discord-github-preview"
+    <div class="card-area tab-panel" id="panel-me" role="tabpanel" aria-labelledby="tab-me">
+      <a class="card image-card async-image-card" href="https://github.com/the-snesler/discord-github-preview"
         aria-label="View the Discord status card project on GitHub">
         <img alt="Yūrei.dll's Discord status"
           src="https://dsc-readme.tsuni.dev/api/user/653082608871276584?pronouns=she%2Fher&theme=nitroDark&primaryColor=8180ff&accentColor=fe80c0&width=512&font=8bit&effect=gradient&nameColor1=a78bfa&nameColor2=ec4899">
       </a>
 
-      <a class="card" href="https://github.com/yurei-dll">
-        <!-- GitHub icon provided by simpleicons.org -->
-        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <a class="card identity-card" href="https://github.com/yurei-dll">
+        <svg role="img" viewBox="0 0 24 24">
           <title>GitHub</title>
-          <path
-            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+          <use href="#github-icon"></use>
         </svg>
         <p>
           Yūrei.dll on GitHub
         </p>
+        <svg class="identity-badge" role="img" viewBox="0 0 24 24">
+          <title>Human user</title>
+          <use href="#human-icon"></use>
+        </svg>
       </a>
 
-      <a class="card codecat-card" href="https://github.com/codecat-yurei"
-        aria-label="CodeCat on GitHub">
-        <!-- GitHub icon provided by simpleicons.org -->
-        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    </div>
+
+    <div class="card-area tab-panel" id="panel-agents" role="tabpanel" aria-labelledby="tab-agents" hidden>
+      <a class="card identity-card codecat-card" href="https://github.com/Runtime-Roost"
+        aria-label="Runtime Roost on GitHub">
+        <svg role="img" viewBox="0 0 24 24">
           <title>GitHub</title>
-          <path
-            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+          <use href="#github-icon"></use>
+        </svg>
+        <p>Runtime Roost</p>
+        <svg class="identity-badge" role="img" viewBox="0 0 24 24">
+          <title>Organization</title>
+          <use href="#organization-icon"></use>
+        </svg>
+      </a>
+
+
+      <a class="card identity-card codecat-card" href="https://github.com/codecat-yurei" aria-label="CodeCat on GitHub">
+        <svg role="img" viewBox="0 0 24 24">
+          <title>GitHub</title>
+          <use href="#github-icon"></use>
         </svg>
         <p>CodeCat on GitHub</p>
-        <svg class="bot-badge" role="img" viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg">
+        <svg class="identity-badge" role="img" viewBox="0 0 24 24">
           <title>Automated agent</title>
-          <path d="M12 2a1 1 0 0 1 1 1v1h2a4 4 0 0 1 4 4v1h1a1 1 0 1 1 0 2h-1v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4v-5H4a1 1 0 1 1 0-2h1V8a4 4 0 0 1 4-4h2V3a1 1 0 0 1 1-1Zm-3 4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H9Zm1 4a1.25 1.25 0 1 1 0 2.5A1.25 1.25 0 0 1 10 10Zm4 0a1.25 1.25 0 1 1 0 2.5A1.25 1.25 0 0 1 14 10Zm-4 5h4a1 1 0 1 1 0 2h-4a1 1 0 1 1 0-2Z" />
+          <use href="#bot-icon"></use>
         </svg>
       </a>
 
+
+      <a class="card identity-card codecat-card" href="https://github.com/canary-yurei" aria-label="Canary on GitHub">
+        <svg role="img" viewBox="0 0 24 24">
+          <title>GitHub</title>
+          <use href="#github-icon"></use>
+        </svg>
+        <p>Canary on GitHub</p>
+        <svg class="identity-badge" role="img" viewBox="0 0 24 24">
+          <title>Automated agent</title>
+          <use href="#bot-icon"></use>
+        </svg>
+      </a>
+
+
+    </div>
+
+    <div class="card-area tab-panel" id="panel-projects" role="tabpanel" aria-labelledby="tab-projects" hidden>
       <a class="card" href="https://yurei-dll.github.io/smp-client/" style="background-color: #62B47A; color:white">
         <img src="assets/img/minecraft-creeper-face.svg" alt="Minecraft Creeper face">
         <p>
           SMP Players check your modpack here!
         </p>
       </a>
+
+      <a class="card" href="https://addons.mozilla.org/en-US/firefox/addon/rec-leash/"
+        style="background-color: #FFFFFF;">
+        <img src="https://raw.githubusercontent.com/yurei-dll/rec-leash/refs/heads/main/media/rec-leash.png"
+          alt="rec-leash icon">
+        <p>
+          Rec-leash addon for Firefox
+        </p>
+      </a>
+
       More things on the way...
     </div>
   </div>
@@ -83,6 +155,7 @@
     } else {
       setTimeout(() => {
         $("body > div.overlay").css("opacity", "0");
+        document.body.classList.add("page-ready");
       }, 500);
       setInterval(() => {
         if (_e) {
@@ -96,6 +169,81 @@
       clearInterval(_t);
     }
   }, 85);
+
+  document.querySelectorAll('.async-image-card').forEach((card) => {
+    const image = card.querySelector('img');
+    const showLoadedImage = () => card.classList.add('is-loaded');
+    const showFailedImage = () => card.classList.add('load-failed');
+
+    image.addEventListener('load', showLoadedImage);
+    image.addEventListener('error', showFailedImage);
+
+    if (image.complete) {
+      image.naturalWidth ? showLoadedImage() : showFailedImage();
+    }
+
+    setTimeout(() => {
+      if (!card.classList.contains('is-loaded')) showFailedImage();
+    }, 8000);
+  });
+
+  const tabs = Array.from(document.querySelectorAll("[role='tab']"));
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let activeTabIndex = 0;
+  let tabTransitionInProgress = false;
+
+  function selectTab(selectedTab) {
+    const nextTabIndex = tabs.indexOf(selectedTab);
+    if (nextTabIndex === activeTabIndex || tabTransitionInProgress) return;
+
+    tabTransitionInProgress = true;
+    const currentTab = tabs[activeTabIndex];
+    const currentPanel = document.getElementById(currentTab.getAttribute("aria-controls"));
+    const nextPanel = document.getElementById(selectedTab.getAttribute("aria-controls"));
+    const movingForward = nextTabIndex > activeTabIndex;
+
+    tabs.forEach((tab) => {
+      const isSelected = tab === selectedTab;
+
+      tab.classList.toggle("is-active", isSelected);
+      tab.setAttribute("aria-selected", isSelected);
+      tab.tabIndex = isSelected ? 0 : -1;
+    });
+
+    nextPanel.hidden = false;
+    currentPanel.classList.add(movingForward ? 'fly-out-to-left' : 'fly-out-to-right');
+    nextPanel.classList.add(movingForward ? 'fly-in-from-right' : 'fly-in-from-left');
+
+    const finishTransition = () => {
+      currentPanel.hidden = true;
+      currentPanel.classList.remove('fly-out-to-left', 'fly-out-to-right');
+      nextPanel.classList.remove('fly-in-from-left', 'fly-in-from-right');
+      activeTabIndex = nextTabIndex;
+      tabTransitionInProgress = false;
+    };
+
+    if (prefersReducedMotion.matches) {
+      finishTransition();
+    } else {
+      nextPanel.addEventListener('animationend', finishTransition, { once: true });
+    }
+  }
+
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => selectTab(tab));
+    tab.addEventListener("keydown", (event) => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+
+      event.preventDefault();
+      let nextIndex = index;
+      if (event.key === 'ArrowLeft') nextIndex = (index - 1 + tabs.length) % tabs.length;
+      if (event.key === 'ArrowRight') nextIndex = (index + 1) % tabs.length;
+      if (event.key === 'Home') nextIndex = 0;
+      if (event.key === 'End') nextIndex = tabs.length - 1;
+      selectTab(tabs[nextIndex]);
+      tabs[nextIndex].focus();
+    });
+  });
 </script>
 
 </html>
