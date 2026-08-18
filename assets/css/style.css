@@ -246,7 +246,7 @@ a:hover {
 .image-card {
     position: relative;
     height: auto;
-    aspect-ratio: 512 / 382;
+    min-height: 10rem;
     padding: 0;
     overflow: hidden;
     background: #17131e;
@@ -267,6 +267,11 @@ a:hover {
 
 .image-card.load-failed::after {
     content: "Discord status unavailable";
+}
+
+.image-card.is-loaded,
+.image-card.load-failed {
+    min-height: 0;
 }
 
 .image-card.is-loaded::after {
