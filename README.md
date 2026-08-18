@@ -12,8 +12,6 @@
 ![Siemens](https://img.shields.io/badge/Siemens-009999?style=flat-square)
 </br>
 
-[![yurei.dll's Discord status](https://dsc-readme.tsuni.dev/api/user/653082608871276584?pronouns=she%2Fher&theme=nitroDark&primaryColor=8180ff&accentColor=fe80c0&width=512&font=8bit&effect=gradient&nameColor1=a78bfa&nameColor2=ec4899&layout=compact)](https://github.com/the-snesler/discord-github-preview)
-
 Most of my projects start from a "what if" or _a minor inconvenience_.
 
 <table width="100%">
