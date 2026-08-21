@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yurei-dll.github.io/yurei-dll/sitemap.xml
+Sitemap: https://yurei-so.github.io/site/sitemap.xml

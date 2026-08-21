@@ -18,7 +18,7 @@ Most of my projects start from a "what if" or _a minor inconvenience_.
   <tr>
     <td width="33.33%" align="center">
       <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats.shion.dev/api?username=yurei-dll&theme=radical&hide_border=false&include_all_commits=false&count_private=false" alt="yurei-dll's GitHub stats"/>
+        <img src="https://github-readme-stats.shion.dev/api?username=yurei-so&theme=radical&hide_border=false&include_all_commits=false&count_private=false" alt="Yūrei.so's GitHub stats"/>
       </a>
     </td>
     <td width="33.33%" align="center">

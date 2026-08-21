@@ -5,7 +5,7 @@ from urllib.parse import quote
 from xml.etree.ElementTree import Element, SubElement, ElementTree, indent
 
 SITE_ROOT = Path(__file__).resolve().parent.parent
-BASE_URL = "https://yurei-dll.github.io/yurei-dll"
+BASE_URL = "https://yurei-so.github.io/site"
 
 EXCLUDED_FILES = {
     "404.html",
